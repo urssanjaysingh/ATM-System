@@ -221,6 +221,7 @@ class Login {
                     System.out.print("\n\t\tInvalid PIN! Try Again!\n");
                     System.out.print("\n\nPress any key to continue...");
                     System.in.read();
+                    scan.nextLine();
                     login();
                 }
             } else {
